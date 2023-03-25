@@ -17,7 +17,7 @@ renamepok = requests.put('https://pokemonbattle.me:9104/pokemons', headers = {'C
 })
 print(renamepok.text)
 
-catchpok = requests.post('https://pokemonbattle.me:9104//trainers/add_pokeball', headers = {'Content-Type': 'application/json', 'trainer_token': token},
+catchpok = requests.post('https://pokemonbattle.me:9104/trainers/add_pokeball', headers = {'Content-Type': 'application/json', 'trainer_token': token},
      json=
      {
     "pokemon_id": 6302
